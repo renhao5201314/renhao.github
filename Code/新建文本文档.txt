@@ -1,0 +1,1 @@
+1、在程序中注入数据池是要使用@Resource(name = "jdbcTemplate3"),否则出现多个数据源时会提示冲突（特别是使用@Autowired）
